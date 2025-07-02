@@ -1,12 +1,7 @@
-# React + Vite
+# steps i followed
+step 1 : setup of vite react project
+step 2 : created firebase project
+    -   firebase authentication setup(google) and firebase database(in testing mode, will secure later)
+setup 3 : added firebase sdk to our project. In short, created and configured firebase-config.js.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    - Create firebase-config.js (not .jsx). Use .js for config or utility files; .jsx is for files containing JSX (UI code).
