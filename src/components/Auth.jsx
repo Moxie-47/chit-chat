@@ -21,7 +21,7 @@ export const Auth = ({setIsAuth}) => {
     return (
         <div className="joinOuterContainer">
             <div className="joinInnerContainer">
-                <h1 className="heading">Samvaad</h1>
+                <h1 className="heading">chit-chat</h1>
                 <button 
                     className={'button mt-20'} type="submit" onClick={signInWithGoogle}
                     style={{cursor : 'pointer'}}
